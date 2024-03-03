@@ -108,13 +108,7 @@
         <!-- Your header content here -->
     </header>
 
-    <main>
-        <section id="product-details">
-            <h1>Product Name</h1>
-            <p>Description of the product goes here.</p>
-            <p>Price: $XX.XX</p>
-            <!-- Other product details here -->
-        </section>
+    
 
         <section id="features">
             <h2>Key features</h2>
@@ -130,6 +124,71 @@
 
     <footer>
         <!-- Your footer content here -->
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <style>
+        /* Your CSS styles here */
+        body {
+            display: flex;
+        }
+
+        main {
+            flex: 1;
+        }
+
+        aside {
+            width: 200px;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Your header content here -->
+    </header>
+
+    <main>
+        <aside>
+            <h2>Sidebar</h2>
+            <!-- Sidebar content goes here -->
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <!-- Add more sidebar links as needed -->
+            </ul>
+        </aside>
+
+        <section id="product-details">
+            <h1>Product Name</h1>
+            <p>Description of the product goes here.</p>
+            <p>Price: $XX.XX</p>
+            <!-- Other product details here -->
+        </section>
+
+        <section id="features">
+            <h2>Key Features</h2>
+            <ul>
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+                <!-- Add more features as needed -->
+            </ul>
+            <img src="image.jpg" alt="Product Features">
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+        <!-- Add other footer content like links, contact information, etc. -->
     </footer>
 </body>
 </html>
